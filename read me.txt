@@ -1,0 +1,23 @@
+1)Api created using flask_sqlalchemy with flask_marshmallow
+
+2)after creating api don't run this file (app.py) before running app.py run create.py to create the db and then run app.py
+
+3) use http://127.0.0.1:5000/member and select post method in postman and select raw and text as json
+use the following json format
+{
+    "name":"sam",
+    "tz":"america",
+    "start_time":"10am",
+    "end_time":"2pm"
+}
+
+note : all the components are strings
+
+4) use http://127.0.0.1:5000/member and select get method in postman to get all the members
+
+
+5)use http://127.0.0.1:5000/member/id and select get method in postman to get specific the member
+
+6)use http://127.0.0.1:5000/member/id and select PUT method in postman to upadte a specific member
+
+7)use http://127.0.0.1:5000/member/id and select delete method in postman to delete a specific member
